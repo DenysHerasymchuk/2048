@@ -1,0 +1,6 @@
+# 2048 Game Dependencies
+#
+# This game uses only Python's standard library.
+# Tkinter is included with Python on most systems.
+#
+# No external packages required.
