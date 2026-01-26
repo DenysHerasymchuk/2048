@@ -6,7 +6,9 @@ A beautiful, animated implementation of the classic 2048 puzzle game built with 
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## About
+<p align="center">
+  <img src="storage/avatar.png" width="400" height="400" />
+</p>
 
 2048 is a single-player sliding tile puzzle game where the objective is to slide numbered tiles on a 4×4 grid to combine them and create a tile with the number 2048. When two tiles with the same number collide, they merge into one tile with their sum. The game is won when a 2048 tile appears on the board, though players can continue beyond this point to achieve higher scores.
 
