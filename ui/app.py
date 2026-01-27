@@ -1,7 +1,9 @@
 import tkinter as tk
 import os
 
-from game import Board, GameLogic, UP, DOWN, LEFT, RIGHT
+from game.board import Board
+from game.constants import UP, DOWN, LEFT, RIGHT
+from game.logic import GameLogic
 from .game_board import GameBoard
 from .colors import (
     BACKGROUND_COLOR, HEADER_COLOR, SCORE_BG, SCORE_TEXT, SCORE_VALUE,
