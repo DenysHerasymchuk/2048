@@ -10,13 +10,21 @@ Controls:
 Author: 2048 Project
 """
 
-from ui.app import Game2048App
+import sys
 
 
 def main():
     """Main entry point for the 2048 game."""
-    app = Game2048App()
-    app.run()
+    try:
+        from ui.app import Game2048App
+        app = Game2048App()
+        app.run()
+    except KeyboardInterrupt:
+        print("\nProgram stopped by user.")
+        sys.exit(0)
+    except Exception as e:
+        print(f"\nProgram stopped: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
