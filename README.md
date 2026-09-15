@@ -1,13 +1,11 @@
-# 2048
-
-A beautiful, animated implementation of the classic 2048 puzzle game built with Python and Tkinter.
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![2048 banner](src/banner.jpeg)](https://denysherasymchuk.com/projects)
 
 <p align="center">
-  <img src="storage/avatar.png" width="400" height="400" />
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python 3.8+"></a>
+  <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/GUI-Tkinter-green?logo=python&logoColor=white" alt="Tkinter"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/Game-2048-orange" alt="2048">
 </p>
 
 2048 is a single-player sliding tile puzzle game where the objective is to slide numbered tiles on a 4×4 grid to combine them and create a tile with the number 2048. When two tiles with the same number collide, they merge into one tile with their sum. The game is won when a 2048 tile appears on the board, though players can continue beyond this point to achieve higher scores.
