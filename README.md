@@ -33,6 +33,9 @@ python main.py
 
 The game window will open centered on your screen, ready to play.
 
+## DEMO
+![DEMO](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmpwMmNuaHVlYm1qbHphZ3c5ZG4xNWd4b2l2emFzYTJiNmQ4cWFsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0G72ijrN6k6GJHYCw/giphy.gif)
+
 ## How to Play
 
 Slide tiles in any of the four directions using your keyboard. When two tiles with the same number touch, they merge into one tile with double the value. After each move, a new tile (either 2 or 4) appears in a random empty spot. Plan your moves carefully to avoid filling the board.
